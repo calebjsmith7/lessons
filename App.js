@@ -31,7 +31,7 @@ const App = () => {
 
   return (
     <NavigationContainer>
-      <SafeAreaView>
+      <SafeAreaView style={{backgroundColor:"#1e2427"}}>
         <View style={styles.container}>
           <Image source={logo} style={styles.header} />
         </View>
